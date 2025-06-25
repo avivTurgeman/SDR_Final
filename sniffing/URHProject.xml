@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<UniversalRadioHackerProject description="" collapse_project_tabs="0" modulation_was_edited="0" broadcast_address_hex="ffff">
+  <modulators>
+    <modulator carrier_freq_hz="40000" carrier_amplitude="1" carrier_phase_deg="0" samples_per_symbol="100" name="Modulator" gauss_bt="0.5" gauss_filter_width="1" sample_rate="None" modulation_type="ASK" index="0" parameters="0.0,100.0" bits_per_symbol="1"/>
+  </modulators>
+  <device_conf>
+    <apply_dc_correction>True</apply_dc_correction>
+    <bandwidth>2400000.0</bandwidth>
+    <bias_tee_enabled>False</bias_tee_enabled>
+    <freq_correction>1</freq_correction>
+    <frequency>433920000.0</frequency>
+    <gain>49</gain>
+    <name>RTL-SDR</name>
+    <num_sending_repeats>0</num_sending_repeats>
+    <rx_antenna_index>0</rx_antenna_index>
+    <rx_baseband_gain>16</rx_baseband_gain>
+    <rx_gain>49</rx_gain>
+    <rx_if_gain>20</rx_if_gain>
+    <sample_rate>2400000.0</sample_rate>
+  </device_conf>
+  <simulator_rx_conf/>
+  <simulator_tx_conf/>
+  <signal name="Lock" filename="Lock.complex16s" samples_per_symbol="100" center="0" center_spacing="1" tolerance="5" noise_threshold="12.2066" noise_minimum="-9.097653347594086" noise_maximum="8.097653347594086" modulation_type="FSK" sample_rate="2400000.0" pause_threshold="8" message_length_divisor="1" bits_per_symbol="1" costas_loop_bandwidth="0.1">
+    <messages/>
+  </signal>
+  <open_file name="Lock.complex16s" position="0"/>
+  <group name="New Group" id="0">
+    <cf_protocol filename="Lock.complex16s"/>
+  </group>
+  <protocol>
+    <decodings>
+      <decoding>'Non Return To Zero (NRZ)', </decoding>
+      <decoding>'Non Return To Zero + Invert', 'Invert', </decoding>
+      <decoding>'Manchester I', 'Edge Trigger', </decoding>
+      <decoding>'Manchester II', 'Edge Trigger', 'Invert', </decoding>
+      <decoding>'Differential Manchester', 'Edge Trigger', 'Differential Encoding', </decoding>
+    </decodings>
+    <participants/>
+    <messages>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900006.226732" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1357" timestamp="1747900007.2740638" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1387" timestamp="1747900007.3996038" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1399" timestamp="1747900007.4007828" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1396" timestamp="1747900007.4019613" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1380" timestamp="1747900007.404908" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.408447" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.414729" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4176757" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4188542" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.420622" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4235687" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4253366" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.428872" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4306395" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4318187" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4365325" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4383008" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4406574" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4447825" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4459612" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4471395" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4489074" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900007.4530325" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900007.4542112" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="2354250" timestamp="1747900007.4553895" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1175" timestamp="1747900008.4369183" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1349" timestamp="1747900008.4771867" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900008.6135795" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="2188008" timestamp="1747900008.6147583" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1394" timestamp="1747900009.5270195" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1392" timestamp="1747900009.6791525" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1405" timestamp="1747900009.6803308" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1407" timestamp="1747900009.6815088" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1348" timestamp="1747900009.6838663" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1326" timestamp="1747900009.6850455" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1339" timestamp="1747900009.6874058" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1394" timestamp="1747900009.6897728" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1407" timestamp="1747900009.6927054" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1378" timestamp="1747900009.6944737" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1396" timestamp="1747900009.696247" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1401" timestamp="1747900009.6991875" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1400" timestamp="1747900009.7015445" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900009.7033129" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900009.7074375" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900009.7086163" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="2085015" timestamp="1747900009.7097945" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.5791426" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.705779" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7069578" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7081363" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.711083" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7146182" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7203155" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7238512" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7273867" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7303333" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7332795" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7350476" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7391725" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.742708" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7468328" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7486007" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.750958" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7521362" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.7544932" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7562613" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1409" timestamp="1747900010.759208" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="1410" timestamp="1747900010.7603862" decoding_index="0"/>
+      <message message_type_id="00595373-eb09-4041-9cc2-48a9105f5842" modulator_index="0" pause="2771239" timestamp="1747900010.761565" decoding_index="0"/>
+    </messages>
+    <message_types>
+      <message_type name="Default" id="00595373-eb09-4041-9cc2-48a9105f5842" assigned_by_ruleset="0" assigned_by_logic_analyzer="0">
+        <ruleset mode="0"/>
+      </message_type>
+    </message_types>
+  </protocol>
+  <simulator_config>
+    <items/>
+  </simulator_config>
+</UniversalRadioHackerProject>
